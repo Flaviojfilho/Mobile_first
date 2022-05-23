@@ -33,8 +33,8 @@ body {
 }
 
 .page {
-  max-width: 38rem;
-  margin: 0 auto;
+  min-width: 38rem;
+  max-width: 120rem;
 }
 
 img {
@@ -42,12 +42,27 @@ img {
   height: auto;
 }
 
-header {
-  height: 28rem;
+h1 {
   font-family: var(--ff-heading);
-  background-color: var(--bg-heading);
+  color: var(--bg-heading);
+  font-size: 4rem;
+  line-height: 3rem;
+  letter-spacing: 0.05rem;
+  
 
-  text-align: center;
+  padding-top: 8px;
+}
+
+.title{
+background-color: hsl(var(--hue), 100%, 97%);
+height: 5rem;
+margin-top: 32px;
+
+}
+
+.title2{
+  padding-top: 1.5rem;
+  padding-bottom: 6rem;
 }
 
 p {
@@ -97,7 +112,7 @@ h1 {
 main {
   display: grid;
   gap: 3.2rem;
-
+ text-align: center;
   padding-bottom: 6rem;
 }
 
